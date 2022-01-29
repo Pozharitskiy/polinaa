@@ -1,7 +1,5 @@
 import Countdown from "react-countdown";
 
-import background from "./background.jpg";
-
 import "./App.css";
 
 const Completionist = () => <span>You are good to go!</span>;
