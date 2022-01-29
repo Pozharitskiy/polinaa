@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Countdown from "react-countdown";
+
+import background from "./background.jpg";
+
+import "./App.css";
+
+const Completionist = () => <span>You are good to go!</span>;
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="App-header">
+        Полинка! Твой present от лиц - Денис, Валерия, Андрей, Михаил будет ждать тебя тогда, когда закончится этот замечательный таймер, написанный мной! 
+      </h1>
+      <Countdown date={1643713200000} className="count">
+        <Completionist />
+      </Countdown>
     </div>
   );
 }

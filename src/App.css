@@ -1,10 +1,21 @@
 .App {
   text-align: center;
+  height: 100vh;
+  background: url("./background.jpg");
+  background-size: cover;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
+}
+
+.count {
+  font-size: 35px;
+  background:rgb(225, 29, 231, 0.8);
+  border-radius: 50%;
+  padding: 35px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +25,11 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: rgb(225, 29, 231, 0.8);
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 20px;
+  margin-bottom: 40px;
 }
 
 .App-link {
