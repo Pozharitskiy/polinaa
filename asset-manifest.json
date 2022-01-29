@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/polinaa/static/css/main.b8546111.css",
-    "main.js": "/polinaa/static/js/main.3da3e3b9.js",
+    "main.css": "/polinaa/static/css/main.d6f3e524.css",
+    "main.js": "/polinaa/static/js/main.f96dec55.js",
     "static/js/787.4e07803d.chunk.js": "/polinaa/static/js/787.4e07803d.chunk.js",
     "static/media/background.jpg": "/polinaa/static/media/background.ba6966f91f6f07bf16c8.jpg",
     "index.html": "/polinaa/index.html",
-    "main.b8546111.css.map": "/polinaa/static/css/main.b8546111.css.map",
-    "main.3da3e3b9.js.map": "/polinaa/static/js/main.3da3e3b9.js.map",
+    "main.d6f3e524.css.map": "/polinaa/static/css/main.d6f3e524.css.map",
+    "main.f96dec55.js.map": "/polinaa/static/js/main.f96dec55.js.map",
     "787.4e07803d.chunk.js.map": "/polinaa/static/js/787.4e07803d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8546111.css",
-    "static/js/main.3da3e3b9.js"
+    "static/css/main.d6f3e524.css",
+    "static/js/main.f96dec55.js"
   ]
 }
